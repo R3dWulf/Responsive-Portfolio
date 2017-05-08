@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<style type="text/css"></style>
+		<title>Contact Page</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+		
+		</script>
+
+	</head>
+
+	<body>
+	<div id="top">
+			<div id="logo">
+				<span >Travis Castle</span>
+			</div>
+		
+			<div  id="navigationBar" >
+				<div class="nav_bar_adj">
+					<table class="nav_table">
+						<tr>
+							<th>
+								<a href="index.html">
+									About
+								</a> 
+							</th>
+							<th>
+								|
+							</th>
+							<th>
+								<a href="portfolio.html">
+									Portfolio 
+								</a> 
+							</th>
+							<th>
+								|
+							</th>
+							<th>
+								<a href="contact.html">
+									Contact
+								</a>
+							</th>
+						</tr>
+					</table>
+				</div>
+			</div>
+
+		<hr size="2" color="#cccccc" style="margin: 0 auto; float:left;">
+
+		<div id="main">
+			<div id="content_holder">
+
+				<h1 style="color: #4AAAA5; padding-left: 10px;" >Contact Me</h1>
+
+				<hr>
+	
+				<form method="POST" action="mailto:example@example.com" name="ContactForm" onsubmit="return validateContactForm()">
+					
+						
+						<label>First Name:</label>
+						<br>
+						<input type="text" name="First_Name" id="FirstName" placeholder="First Name" maxlength="20" required />
+						<br>
+						<br>
+						<label>Last Name:</label>
+						<br>
+						<input type="text" name="Last_Name" id="LastName" placeholder="Last Name" maxlength="20" required />
+						<br>
+						<br>
+						<label>Email:</label>
+						<br>
+						<input type="email" name="Email" id="Email" placeholder="Email Address" maxlength="30" required>
+						<br>
+						<br>
+						<label>Phone#:</label>
+						<br>						
+						<input type="tel" placeholder="Phone#"/>
+						Home<input type="radio" name="Home" />
+						Work<input type="radio" name="Work" />
+						Cell<input type="radio" name="Cell" />
+						<br>
+						<br>
+						<label>Best Time to Call:</label> 
+						<select type="text" value="" name="select">
+							<option>
+								Morning
+							</option>
+							<option>
+								Evenings
+							</option>
+							<option>
+								Nights
+							</option>													
+						</select>	
+						Do Not Call <input type="checkbox" name="DoNotCall">
+
+						<br>
+						<br>
+						<label>Your Comments:</label>
+						<br>
+						<textarea rows="10" cols="70" name="Comments" placeholder="Your comment's here" maxlength="1000" required /></textarea>
+						<br>
+						<br>								
+
+						<input id="button" type="submit" value="Submit" name="submit">
+					
+				
+					
+				</form>
+			</div>
+		</div>
+
+		<div id="sidebar">
+			<div id="content_holder">
+ 
+ 				<h3  style="color: #4AAAA5; font-family: 'Georgia', Times, Times New Roman, serif;"> Contact Me</h3>
+ 				<hr>
+ 
+				<a href="#" target="_blank">
+					<img src="assets\images\github.png" height="35px" width="35px">
+				</a>
+			
+				<a href="#" target="_blank">
+					<img src="assets\images\Linkin.png" height="35px" width="35px">
+				</a>
+
+				<a href="#" target="_blank">
+					<img src="assets\images\Stack.png" height="35px" width="35px">
+				</a>
+
+			</div>
+		</div>
+
+		<div style="clear: both">
+		</div>
+
+		<div id="footer">
+			<hr width="100%" color="#4AAAA5" style="margin: 0 auto;" size="6">
+			<p> &#169; copyright Travis Castle</p>
+		</div>
+
+	</body>
+
+</html>
